@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px;
+    background-color: #ADD8E6;
+}
+
+#canvasContainer {
+    border: #6F8FAF solid;
+    border-radius: 10px;
+    border-width: 5px;
+    background-color: #FFFFFF;
+}
+
+#interface {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 300px;
+    padding: 10px;
+    justify-content: space-around;
+    background-color: #6F8FAF;
+    border-radius: 15px;
+}
+
+#interface .inputBox {
+    background-color: #A7C7E7;
+    padding: 10px;
+    border-radius: 10px;
+}
+

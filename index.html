@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Search Algorithms Visualised</title>
+        <link rel="stylesheet" href="styles.css">
+        <script type="module" src="script.js"></script>
+    </head>
+    <body>
+        <div id="canvasContainer">
+            <canvas id="canvas" height="300" width="1100"></canvas>
+        </div>
+
+        <div id="interface">
+
+            <div class="inputBox">
+                Answer: 
+                <span id="answerCounter">500</span>
+                <input id="answerRange" type="range" min="0" max="1000" placeholder="500">
+            </div>
+
+            <div class="inputBox">
+                Algorithm:
+                <select id="algorithmInput">
+                    <option value="binary">Binary Search</option>
+                    <option value="linear">Linear Search</option>
+                </select>
+            </div>
+
+            <div class="inputBox">
+                <button id="searchButton">Start Search</button>
+            </div>
+
+            <div class="inputBox">
+                Steps: 
+                <span id="stepsCounter">0</span>
+            </div>
+
+        </div>
+        
+    </body>
+    
+</html>
